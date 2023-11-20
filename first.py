@@ -12,7 +12,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QLabel, QMainWindow
 class Suprematism(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('01.ui', self)
+        uic.loadUi('UI.ui', self)
         self.flag = False
         self.qp = QPainter()
         self.setGeometry(300, 300, 1000, 1000)
